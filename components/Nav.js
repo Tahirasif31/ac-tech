@@ -8,7 +8,7 @@ function Nav() {
   const [active, setActive] = useState(null);
   return (
     <nav className="flex justify-center mt-4">
-      <div className="w-[1340px] flex justify-between items-center text-center border-[1px] border-[#FFFFFF]/[0.16] px-4  rounded-lg">
+      <div className="w-[1340px] flex justify-between items-center text-center border-[1px] border-[#FFFFFF]/[0.16] px-4  rounded-lg z-50">
         <span>Ac Tech</span>
 
         <div className={cn("max-w-2xl mx-auto z-50")}>
