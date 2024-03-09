@@ -15,7 +15,7 @@ export function Hero() {
   ];
   return (
     <ImagesSlider
-      className="h-[45rem] flex flex-col justify-start"
+      className="h-[45rem] flex flex-col justify-start w-full"
       images={images}
     >
       <Nav />
