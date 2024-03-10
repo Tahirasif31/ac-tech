@@ -4,7 +4,7 @@ import React, { useState } from "react";
 function Nav() {
   const [showNav, setShowNav] = useState();
   return (
-    <nav className="flex justify-between mt-4 py-1 z-50 align-middle items-center 2xl:mx-28 xl:mx-20 md:mx-8 border border-[#FFFFFF]/[0.16] px-4 rounded-lg bg-[#00000016]">
+    <nav className="flex justify-between md:mt-4 py-1 z-50 align-middle items-center 2xl:mx-28 xl:mx-20 md:mx-8 border border-[#FFFFFF]/[0.16] px-4 rounded-lg bg-[#00000016]">
       <span>Ac Tech</span>
       <div
         className={`md:static absolute bg-[#0000004f] md:bg-transparent min-h-[16vh] left-0 ${
