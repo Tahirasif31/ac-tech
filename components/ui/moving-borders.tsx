@@ -19,6 +19,7 @@ export function Button({
   borderClassName,
   duration,
   className,
+  height,
   ...otherProps
 }: {
   borderRadius?: string;
@@ -33,7 +34,7 @@ export function Button({
   return (
     <Component
       className={cn(
-        "bg-transparent relative text-xl  h-10 w-28 p-[1px] overflow-hidden ",
+        `bg-transparent relative text-xl h-${height} md:h-10 w-28 p-[1px] overflow-hidden`,
         containerClassName
       )}
       style={{

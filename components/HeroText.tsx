@@ -31,11 +31,12 @@ export function HeroText() {
       </p>
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-        <button className="flex items-center py-[9px] animate-shimmer text-[13px] md:py-[9px] text-white bg-slate-900 justify-center rounded-[1.75rem] border-neutral-200  border  bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium  transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+        <button className="flex items-center h-9 animate-shimmer text-[13px] md:py-[9px] text-white bg-slate-900 justify-center rounded-[1.75rem] border-neutral-200  border  bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium  transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
           Whatsapp
         </button>
         <Button
           borderRadius="1.75rem"
+          height={9}
           className="dark:bg-slate-900 text-[13px] text-white dark:text-white border-neutral-200 dark:border-slate-800 px-1 py-[12px]"
         >
           Book Now

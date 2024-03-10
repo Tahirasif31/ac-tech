@@ -4,7 +4,7 @@ import React, { useState } from "react";
 function Nav() {
   const [showNav, setShowNav] = useState();
   return (
-    <nav className="flex justify-between mt-4 z-50 align-middle items-center 2xl:mx-28 xl:mx-20 md:mx-8 border border-[#FFFFFF]/[0.16] px-4 rounded-lg bg-[#00000016]">
+    <nav className="flex justify-between mt-4 py-1 z-50 align-middle items-center 2xl:mx-28 xl:mx-20 md:mx-8 border border-[#FFFFFF]/[0.16] px-4 rounded-lg bg-[#00000016]">
       <span>Ac Tech</span>
       <div
         className={`md:static absolute bg-[#0000004f] md:bg-transparent min-h-[16vh] left-0 ${
@@ -18,10 +18,11 @@ function Nav() {
           <li>Team</li>
         </ul>
       </div>
-      <div className="flex gap-2">
+      <div className="flex gap-3">
         <Button
           borderRadius="1.75rem"
-          className="dark:bg-slate-900 text-white dark:text-white border-neutral-200 dark:border-slate-800 px-1 py-3 "
+          height={8}
+          className="dark:bg-slate-900 text-white dark:text-white border-neutral-200 dark:border-slate-800 md:px-1 md:py-3 py-[5px] "
         >
           Login
         </Button>
