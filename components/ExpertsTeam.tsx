@@ -10,9 +10,9 @@ export function ExpertsTeam() {
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-white">
-              Unleash the power of <br />
+              Discover Your Ultimate <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                Scroll Animations
+                AC Solution Today!
               </span>
             </h1>
           </>
