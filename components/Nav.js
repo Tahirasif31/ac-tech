@@ -8,7 +8,7 @@ function Nav() {
       <span>Ac Tech</span>
       <div
         className={`md:static absolute bg-[#0000004f] md:bg-transparent min-h-[16vh] left-0 ${
-          showNav ? "top-[8%]" : "top-[-100%]"
+          showNav ? "top-[9%]" : "top-[-100%]"
         } py-3 md:min-h-fit w-full md:w-auto flex items-center md:px-5`}
       >
         <ul className="flex md:flex-row flex-col md:gap-[4vw] px-4 gap-8 md:items-center">
