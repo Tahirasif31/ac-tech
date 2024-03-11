@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
+import styles from "./container-scroll-animation.module.css";
 
 export const ContainerScroll = ({
   users,
@@ -101,7 +102,9 @@ export const Card = ({
       }}
       className="max-w-5xl -mt-12 mx-auto h-[30rem] md:h-[40rem] w-full border-4 border-[#6C6C6C] p-6 bg-[#222222] rounded-[30px] shadow-2xl"
     >
-      <div className="bg-gray-100 h-full w-full rounded-2xl grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 overflow-hidden p-4">
+      <div
+        className={`bg-gray-100 h-full w-full rounded-2xl grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 overflow-scroll p-4 ${styles.scroll}`}
+      >
         {users.map((user, idx: number) => (
           <motion.div
             key={`user-${idx}`}
