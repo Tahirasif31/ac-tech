@@ -124,7 +124,6 @@ export const Card = ({
               alt="thumbnail"
             />
             <div className="p-4">
-              <h1 className="font-semibold text-sm ">{user.name}</h1>
               <h2 className=" text-gray-500 text-xs ">{user.designation}</h2>
             </div>
           </motion.div>

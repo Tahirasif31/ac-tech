@@ -25,20 +25,20 @@ export function ExpertsTeam() {
 export const users = [
   {
     name: "Manu Arora",
-    designation: "Founder, Algochurn",
-    image: "https://picsum.photos/id/10/300/300",
+    designation: "Insufficient Cooling",
+    image: "/solution-1.jpg",
     badge: "Mentor",
   },
   {
     name: "Sarah Singh",
-    designation: "Founder, Sarah's Kitchen",
-    image: "https://picsum.photos/id/11/300/300",
+    designation: "Thermostat Malfunctions",
+    image: "/solution-2.jpg",
     badge: "Mentor",
   },
   {
     name: "John Doe",
-    designation: "Software Engineer, Tech Corp",
-    image: "https://picsum.photos/id/12/300/300",
+    designation: "Faulty Compressor",
+    image: "/solution-3.jpg",
     badge: "Mentor",
   },
   {
