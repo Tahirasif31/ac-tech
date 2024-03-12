@@ -4,6 +4,9 @@ import { About } from "./../components/About";
 import { ExpertsTeam } from "@/components/ExpertsTeam";
 import { Meteor } from "@/components/Meteor";
 import BestService from "@/components/BestService";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCard";
+
+const review = [{}];
 
 export default function Home() {
   return (
@@ -25,6 +28,7 @@ export default function Home() {
         </div>
       </div>
       <BestService />
+      <InfiniteMovingCardsDemo />
     </div>
   );
 }
