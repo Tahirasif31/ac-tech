@@ -3,6 +3,7 @@ import { Hero } from "./../components/Hero";
 import { About } from "./../components/About";
 import { ExpertsTeam } from "@/components/ExpertsTeam";
 import { Meteor } from "@/components/Meteor";
+import BestService from "@/components/BestService";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
           <Meteor />
         </div>
       </div>
+      <BestService />
     </div>
   );
 }
