@@ -423,7 +423,7 @@ export function GlobeDemo() {
             >
               Whatsapp
             </a>
-            &nbsp;now!"
+            &nbsp;now!
           </p>
         </motion.div>
         {/* <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent  z-40" /> */}
