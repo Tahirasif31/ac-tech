@@ -418,7 +418,7 @@ export function GlobeDemo() {
             Get your AC fixed or get a quote fast! Chat with our experts
             on&nbsp;
             <a
-              href="#"
+              href="https://chatwith.io/s/ac-repair-service"
               className="bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text cursor-pointer z-50"
             >
               Whatsapp
