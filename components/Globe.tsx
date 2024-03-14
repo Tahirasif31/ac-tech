@@ -411,23 +411,23 @@ export function GlobeDemo() {
           }}
           className="div"
         >
-          <h2 className="text-center text-xl md:text-4xl font-bold text-white">
+          <h2 className="text-center text-xl md:text-4xl font-bold text-white ">
             Book Your Service Now!
           </h2>
-          <p className="text-center text-base md:text-lg font-normal text-neutral-200 max-w-md mt-2 mx-auto">
+          <p className="text-center text-base md:text-lg font-normal text-neutral-200 max-w-md mt-2 mx-auto mb-20 z-50">
             Get your AC fixed or get a quote fast! Chat with our experts on{" "}
             <a
               href="#"
-              className="bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text cursor-pointer z-[100]"
+              className="bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text cursor-pointer z-50"
             >
               Whatsapp
             </a>{" "}
             now!"{" "}
           </p>
         </motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent  z-40" />
-        <div className="absolute w-full bottom-20 md:-bottom-16 h-72 md:h-full z-10">
-          <World data={sampleArcs} globeConfig={globeConfig} />;
+        {/* <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent  z-40" /> */}
+        <div className="absolute w-full bottom-20 md:-bottom-2  h-72 md:h-full z-10">
+          <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>
     </div>
