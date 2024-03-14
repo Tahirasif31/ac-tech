@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { BackgroundGradient } from "./ui/background-gradient";
-import { IconAppWindow } from "@tabler/icons-react";
 import Image from "next/image";
 
 export function BackgroundGradientDemo() {
@@ -16,19 +15,21 @@ export function BackgroundGradientDemo() {
           className="object-contain lg:max-w-[350px] text-center flex items-center rounded-md "
         />
         <p className="text-base sm:text-xl text-neutral-200 mt-3">
-          Air Jordan 4 Retro Reimagined
+          Book Split / Ac Maintenance Service Now
         </p>
 
         <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1">
-          The Air Jordan 4 Retro Reimagined Bred will release on Saturday,
-          February 17, 2024. Your best opportunity to get these right now is by
-          entering raffles and waiting for the official releases.
+          Ready to maintain your Split/AC? Book our service now for
+          uninterrupted cooling comfort. Our expert technicians are standing by
+          to optimize your system&apos;s performance and efficiency.
         </p>
         <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
-          <span>Buy now </span>
-          <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
-            $100
-          </span>
+          <a href="#">
+            <span>Book now </span>
+            <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
+              AED 150
+            </span>
+          </a>
         </button>
       </BackgroundGradient>
     </div>

@@ -1,7 +1,13 @@
 import React from "react";
 import { Meteors } from "./ui/meteors";
+import Image from "next/image";
 
-export function Meteor() {
+interface MeteorProps {
+  title: string;
+  description: string;
+}
+
+export function Meteor({ title, description }: MeteorProps) {
   return (
     <div className="">
       <div className=" w-full relative max-w-xs">
@@ -25,17 +31,22 @@ export function Meteor() {
           </div>
 
           <h1 className="font-bold text-xl text-white mb-4 relative z-50">
-            Meteors because they&apos;re cool
+            {title}
           </h1>
 
           <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
-            I don&apos;t know what to write so I&apos;ll just paste something
-            cool here. One more sentence because lorem ipsum is just
-            unacceptable. Won&apos;t ChatGPT the shit out of this.
+            {description}
           </p>
 
-          <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
-            Explore
+          <button className="flex gap-2 items-center border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
+            Book Now
+            <Image
+              src={"/booking.png"}
+              alt="whatsapp"
+              className="mt-[2px]"
+              width={18}
+              height={18}
+            />
           </button>
 
           {/* Meaty part - Meteor effect */}
