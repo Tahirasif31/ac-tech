@@ -1,10 +1,10 @@
-import Image from "next/image";
 import { Hero } from "./../components/Hero";
 import { About } from "./../components/About";
 import { ExpertsTeam } from "@/components/ExpertsTeam";
 import { Meteor } from "@/components/Meteor";
 import BestService from "@/components/BestService";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCard";
+import { GlobeDemo } from "@/components/Globe";
 
 const review = [{}];
 
@@ -12,9 +12,15 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <About />
+      <section id="about">
+        <About />
+      </section>
+      <GlobeDemo />
       <ExpertsTeam />
-      <div className="mx-auto xl:max-w-[1080px] md:max-w-[1000px]">
+      <section
+        id="services"
+        className="mx-auto xl:max-w-[1080px] md:max-w-[1000px]"
+      >
         <p className="text-[38px] font-[600] text-center pb-8 md:pb-10">
           Our Services
         </p>
@@ -26,7 +32,7 @@ export default function Home() {
           <Meteor />
           <Meteor />
         </div>
-      </div>
+      </section>
       <BestService />
       <InfiniteMovingCardsDemo />
     </div>

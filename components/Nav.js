@@ -9,11 +9,15 @@ function Nav() {
       <div
         className={`md:static absolute bg-[#0000004f] md:bg-transparent min-h-[16vh] left-0 ${
           showNav ? "top-[6.15%]" : "top-[-100%]"
-        } py-5 md:min-h-fit w-full md:w-auto flex items-center md:px-5`}
+        } py-5 md:min-h-fit w-full md:w-auto flex items-center md:px-5 z-50`}
       >
         <ul className="flex md:flex-row flex-col md:gap-[4vw] px-4 gap-8 md:items-center">
-          <li>About</li>
-          <li>Services</li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
           <li>Contact</li>
           <li>Team</li>
         </ul>
