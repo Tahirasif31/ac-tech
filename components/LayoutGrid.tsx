@@ -27,7 +27,7 @@ const SkeletonTwo = () => {
   return (
     <div>
       <p className="font-bold text-4xl text-white">
-        Chiller Plant Optimization: Expert Diagnosis
+        Chiller Plant Optimization
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
@@ -42,7 +42,7 @@ const SkeletonThree = () => {
   return (
     <div>
       <p className="font-bold text-4xl text-white">
-        Cooling Solutions for Corporate Environments
+        Corporate Air Conditioning Solutions
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
@@ -55,9 +55,7 @@ const SkeletonThree = () => {
 const SkeletonFour = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">
-        Ducted AC Care: Expert Maintenance Services
-      </p>
+      <p className="font-bold text-4xl text-white">Ducted AC Care</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         Comprehensive maintenance solutions tailored to preserve efficiency and
