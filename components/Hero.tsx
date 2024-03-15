@@ -6,13 +6,7 @@ import Nav from "./Nav";
 import { HeroText } from "./HeroText";
 
 export function Hero() {
-  const images = [
-    "/seven.jpg",
-    "/nine.jpg",
-    "/two.jpg",
-    "/three.jpg",
-    "/six.jpg",
-  ];
+  const images = ["/nine.jpg", "/two.jpg", "/three.jpg", "/six.jpg"];
   return (
     <ImagesSlider
       className="h-[45rem] flex flex-col justify-start w-full"
