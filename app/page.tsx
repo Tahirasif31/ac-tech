@@ -72,10 +72,13 @@ export default function Home() {
         </div>
       </section>
       <BestService />
-      <LayoutGridDemo />
-      <div className="relative">
-        <InfiniteMovingCardsDemo />
-      </div>
+      <section>
+        <p className="text-[38px] font-[600] text-center">
+          AC Service&apos;s Matrix
+        </p>
+        <LayoutGridDemo />
+      </section>
+      <InfiniteMovingCardsDemo />
     </div>
   );
 }

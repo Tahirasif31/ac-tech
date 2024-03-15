@@ -4,7 +4,7 @@ import { LayoutGrid } from "./ui/layout-grid";
 
 export function LayoutGridDemo() {
   return (
-    <div className="relative h-screen py-20 w-full">
+    <div className="relative h-screen w-full">
       <LayoutGrid cards={cards} />
     </div>
   );
@@ -13,11 +13,11 @@ export function LayoutGridDemo() {
 const SkeletonOne = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">House in the woods</p>
+      <p className="font-bold text-4xl text-white">Split / AC Cooling Issue</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A serene and tranquil retreat, this house in the woods offers a peaceful
-        escape from the hustle and bustle of city life.
+        Resolving your AC cooling issues swiftly, keeping your space comfortably
+        cool year-round.
       </p>
     </div>
   );
@@ -26,12 +26,14 @@ const SkeletonOne = () => {
 const SkeletonTwo = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">House above the clouds</p>
+      <p className="font-bold text-4xl text-white">
+        Chiller Plant Optimization: Expert Diagnosis
+      </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Perched high above the world, this house offers breathtaking views and a
-        unique living experience. It&apos;s a place where the sky meets home,
-        and tranquility is a way of life.
+        Engage qualified technicians to diagnose and address complex issues
+        within the chiller plant system, ensuring efficient operation and
+        optimal cooling performance.
       </p>
     </div>
   );
@@ -39,11 +41,13 @@ const SkeletonTwo = () => {
 const SkeletonThree = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Greens all over</p>
+      <p className="font-bold text-4xl text-white">
+        Cooling Solutions for Corporate Environments
+      </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        Tailored cooling solutions for corporate environments, ensuring comfort
+        and productivity year-round.
       </p>
     </div>
   );
@@ -51,11 +55,13 @@ const SkeletonThree = () => {
 const SkeletonFour = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Rivers are serene</p>
+      <p className="font-bold text-4xl text-white">
+        Ducted AC Care: Expert Maintenance Services
+      </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house by the river is a place of peace and tranquility. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        Comprehensive maintenance solutions tailored to preserve efficiency and
+        reliability in your ducted air conditioning system.
       </p>
     </div>
   );
