@@ -5,6 +5,7 @@ import { Meteor } from "@/components/Meteor";
 import BestService from "@/components/BestService";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCard";
 import { GlobeDemo } from "@/components/Globe";
+import { LayoutGridDemo } from "@/components/LayoutGrid";
 
 const review = [{}];
 
@@ -71,7 +72,10 @@ export default function Home() {
         </div>
       </section>
       <BestService />
-      <InfiniteMovingCardsDemo />
+      <LayoutGridDemo />
+      <div className="relative">
+        <InfiniteMovingCardsDemo />
+      </div>
     </div>
   );
 }
